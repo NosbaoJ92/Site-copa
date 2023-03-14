@@ -1,0 +1,631 @@
+/*#E76030 - laranja primário
+  #F68B32 - laranja secundário
+  #EFEFFB - branco
+  #253050 - azul primário
+  #2E3C63 - azul secundário
+  #000000 - preto*/
+
+/*-----------------Normalize & Body-----------------*/
+  *{
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box; 
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #253050;
+}
+
+/*-----------------CABEÇALHO-----------------*/
+
+.cabecalho{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 30px;
+    margin-top: -30px;
+    box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 1);
+}
+
+nav ul{
+  list-style: none;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: #2E3C63;
+}
+
+nav a{
+  color:  #EFEFFB;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:  #F68B32;
+}
+
+/*-----------------CONTEÚDO-----------------*/
+.container{
+  margin-top: 50px;
+}
+
+.content{
+  width: 100%;
+}
+
+.content img{
+  width: 100%;
+}
+
+.content .tabela{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  background-color: #2E3C63;
+}
+
+
+.tabela > h1{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: -5px ;
+}
+
+.tabela > h6{
+  color: #E76030 ;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.tab_grupo > h1{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.content .tab_grupo{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  background-color: #253050;
+  padding: 10px;
+  margin: 15px;
+}
+
+.content .tab_grupo .jogos{
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.tab_grupo .jogos h3{
+  background-color: #E76030;
+  border-radius: 8px 8px 0 0 ;
+  padding: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.tab_grupo .jogos p{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color: #E76030;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.tab_escalacao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab_escalacao h1{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+}
+
+.tab_Escalação_Lendária{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab_Escalação_Lendária h3{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+}
+
+.escalacao{
+  width: 80%;
+}
+
+.carrossel{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#historia{
+  background-color: #2E3C63;
+}
+
+#historia h1{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: -25px ;
+  text-align: center;
+  padding-top: 60px;
+  
+}
+
+#historia h3{
+  color: #E76030;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0 25px;
+}
+
+strong{
+  color: #E76030;
+}
+
+#historia p{
+  color: #EFEFFB;
+  text-align: justify;
+  font-size: 20px;
+  padding: 15px 25px;
+}
+
+#jogadores h1, #lendas h1 {
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: -15px ;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.convocados h3{
+  color: #EFEFFB;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  background-color: #E76030;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
+}
+.convocados p{
+ color: #EFEFFB;
+}
+
+.convocados{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.convocados img{
+  width: 150px;
+}
+
+#titulos{
+  background-color: #2E3C63;
+} 
+
+#titulos h1{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: -15px ;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+
+.eurocopa h3{
+  color: #E76030;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center; 
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
+}
+
+.eurocopa  p{
+  color: #EFEFFB;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center; 
+ }
+
+ .eurocopa{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+ }
+ .euro88{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+ }
+ .eurocopa  img{
+  width: 500px;
+}
+
+#lendas{
+  background-color: #253050;
+} 
+
+.Escalação_Lendária{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+.Escalação_Lendária p{
+  color: #F68B32;
+  text-shadow: 0px 3px 5px  #000000;
+ }
+
+.Escalação_Lendária h3{
+  color: #EFEFFB;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  background-color: #E76030;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
+  padding: 10px;
+}
+
+.Escalação_Lendária img{
+  width: 150px;
+  padding-bottom: 15px;
+}
+
+.tab_escalacao_lendas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab_escalacao_lendas h1{
+  background: #FFFCFC;
+  background: linear-gradient(to bottom, #FFFCFC 23%, #858585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: -50px;
+}
+/*-----------------RODAPÉ-----------------*/
+
+footer{
+  background-color: #2E3C63;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  padding: 10px;
+}
+
+footer span{
+  color: #E76030;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+}
+
+footer img{
+  width: 90px;
+}
+
+
+/*-----------------MEDIA QUERY-----------------*/
+@media screen and (max-width: 731px){
+  
+  .convocados img{
+    display: none;
+  } 
+
+  .Escalação_Lendária img{
+    display: none;
+  }
+
+  .Escalação_Lendária{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 732px) and (max-width: 960px) {
+
+  .content .tab_grupo .jogos{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    gap: 20px;
+  }
+
+  .tab_grupo .jogos h3{
+    width: 200px;
+    text-align: center;
+  }
+
+  .content .tab_escalacao{
+    padding-top: 15px;
+    object-fit: cover;
+  }
+
+  .escalacao{
+    width: 70%;
+  }
+
+  #historia{
+    padding: 0 50px;
+  }
+
+  .convocados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .convocados h3{
+    margin-bottom: 5px;
+  }
+
+  .convocados p{
+    display: none;
+  }
+
+  .Escalação_Lendária{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .Escalação_Lendária h3{
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  
+  .content .tab_grupo .jogos{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+
+  .tab_grupo .jogos h3 {
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .content .tab_escalacao{
+    padding-top: 15px;
+    object-fit: cover;
+  }
+
+  .escalacao{
+    width: 60%;
+  }
+
+  #historia{
+    padding: 0 50px;
+  }
+
+  .convocados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #jogadores{
+    padding: 0 150px;
+  }
+
+  .convocados h3{
+    margin-bottom: 5px;
+  }
+
+  .convocados p{
+    display: none;
+  }
+
+  .Escalação_Lendária{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+  #lendas{
+    padding: 0 150px;
+  }
+
+  .Escalação_Lendária h3{
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1999px) {
+
+  .tab_grupo{
+    padding-bottom: 20px;
+  }
+
+  .content .tab_grupo .jogos{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+
+  .tab_grupo .jogos h3{
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .escalacao{
+    width: 50%;
+  }
+
+  #historia{
+    padding: 0 100px;
+  }
+
+  .convocados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #jogadores{
+    padding: 0 250px;
+  }
+
+  .convocados h3{
+    margin-bottom: 5px;
+  }
+  
+  .convocados p{
+    display: none;
+  }
+
+  .Escalação_Lendária{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #lendas{
+    padding: 0 250px;
+  }
+  
+  .Escalação_Lendária h3{
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .tab_grupo{
+    padding-bottom: 20px;
+  }
+
+  .content .tab_grupo .jogos{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+
+  .tab_grupo .jogos h3{
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .escalacao{
+    width: 50%;
+  }
+  
+  #historia{
+    padding: 0 250px;
+  }
+
+  .convocados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #jogadores{
+    padding: 0 500px;
+  }
+
+  .convocados h3{
+    margin-bottom: 5px;
+  }
+
+  .convocados p{
+    display: none;
+  }
+
+  .Escalação_Lendária{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #lendas{
+    padding: 0 500px;
+  }
+  
+  .Escalação_Lendária h3{
+    margin-bottom: 5px;
+  }
+}
+  
+  
+  

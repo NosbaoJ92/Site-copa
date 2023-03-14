@@ -1,0 +1,1 @@
+window.alert("Bem-vindo, você conhecerá um pouco da história da seleção holandesa e sua única conquista! - Obrigado e boa experiência ao acessar nossa página de milhões.");
